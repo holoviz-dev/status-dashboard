@@ -69,6 +69,11 @@
     badges: gha, release, pypi, conda, conda-forge, defaults, release-date
     gha_workflow: test.yaml
 
+  - repo: panel-extensions/panel-material-ui
+    branch: main
+    badges: gha, release, pypi, conda, conda-forge, defaults, release-date
+    gha_workflow: test.yaml
+
 - name: Bokeh packages
 
   packages:

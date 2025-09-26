@@ -122,18 +122,12 @@
     branch: main
     badges: gha, gh-pages, site, docs-date
     gha_workflow: test.yml
-    site: examples.pyviz.org
+    site: examples.holoviz.org
 
   - repo: holoviz-dev/blog
     branch: main
     badges: site
-    site: blog.pyviz.org
-
-  - repo: pyviz/pyviz.org
-    branch: master
-    badges: gha, site, docs-date
-    site: pyviz.org
-    gha_workflow: docs.yml
+    site: blog.holoviz.org
 
   - repo: holoviz-dev/status-dashboard
     branch: main
@@ -194,7 +188,7 @@
     badges: gha, release, pypi, conda, release-date
 
 
-- name: Associated packages
+- name: Associated packages and projects
 
   packages:
 
@@ -213,6 +207,12 @@
     badges: gha, codecov, site, release, pypi, conda-forge, defaults, release-date
     gha_workflow: python-dev.yml
     site: pandas.pydata.org
+
+  - repo: pyviz/pyviz.org
+    branch: master
+    badges: gha, site, docs-date
+    site: pyviz.org
+    gha_workflow: docs.yml
 
   - repo: pydata/xarray
     badges: gha, codecov, rtd, release, pypi, conda-forge, defaults, release-date

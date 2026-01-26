@@ -74,6 +74,11 @@
     badges: gha, release, pypi, conda, conda-forge, defaults, release-date
     gha_workflow: test.yaml
 
+  - repo: panel-extensions/panel-splitjs
+    branch: main
+    badges: gha, release, pypi, conda, conda-forge, defaults, release-date
+    gha_workflow: test.yml
+
 - name: Bokeh packages
 
   packages:

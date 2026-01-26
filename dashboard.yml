@@ -79,6 +79,11 @@
     badges: gha, release, pypi, conda, conda-forge, defaults, release-date
     gha_workflow: test.yml
 
+  - repo: panel-extensions/panel-graphic-walker
+    branch: main
+    badges: gha, release, pypi, conda, conda-forge, defaults, release-date
+    gha_workflow: test.yaml
+
 - name: Bokeh packages
 
   packages:

@@ -84,6 +84,21 @@
     badges: gha, release, pypi, conda, conda-forge, defaults, release-date
     gha_workflow: test.yaml
 
+  - repo: panel-extensions/panel-tiles
+    branch: main
+    badges: gha, release, pypi, conda, conda-forge, defaults, release-date
+    gha_workflow: test.yaml
+
+  - repo: panel-extensions/panel-flowdash
+    branch: main
+    badges: gha, release, pypi, conda, conda-forge, defaults, release-date
+    gha_workflow: test.yaml
+
+  - repo: panel-extensions/panel-live-server
+    branch: main
+    badges: gha, release, pypi, conda, conda-forge, defaults, release-date
+    gha_workflow: test.yaml
+
 - name: Bokeh packages
 
   packages:
